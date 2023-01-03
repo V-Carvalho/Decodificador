@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="box-left">
+        <img src="src/img/logo.png" class="img-logo-alura" alt="Logo Alura" />
+
+        <textarea
+          id="messageUser"
+          name="messageUser"
+          placeholder="Digite seu texto aqui:"
+        ></textarea>
+
+        <div class="container-buttons">
+          <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
+          <button class="btn-decrypt" onclick="decrypt()">Descriptografar</button>
+        </div>
+
+        <div class="personal-information">
+          <span>Desenvolvido por: <strong>Vinicius Carvalho</strong></span>
+          <div class="container-icons">
+            <a href="https://github.com/V-Carvalho" target="_blank">
+              <img src="https://skillicons.dev/icons?i=github" class="img-social-networks-icon" alt="Logo Github" />
+            </a>  
+            <a href="https://www.linkedin.com/in/vinicius-a-carvalho/" target="_blank">
+              <img src="https://skillicons.dev/icons?i=linkedin" class="img-social-networks-icon" alt="Logo Linkedin" />
+            </a>
+          </div>          
+        </div>
+      </section>
+
+      <section class="box-right">
+        <div class="title-header">
+          <h1>Mensagens Codificadas</h1>
+        </div>
+
+        <div class="container-output-msg">
+          <img
+            id="imgNothingFound"
+            src="src/img/nothing_found.png"
+            class="img-nothing-found"
+            alt="Nada Encontrado"
+          />
+
+          <p id="textResult" class="text-result">Sua mensagem aparecerá aqui!</p>
+
+          <button id="btnCopyMsg" class="btn-copy-msg" onclick="copyMsg()">Copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/js/index.js" defer></script>
+  </body>
+</html>
