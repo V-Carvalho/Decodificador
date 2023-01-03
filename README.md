@@ -3,7 +3,8 @@
 ## 📝 Descrição:
 Este projeto é o primeiro desafio da trilha ONE-Oracle Next Education.
 
-As "chaves" de criptografia que utilizaremos são:
+O desafio consiste em desenvolver um decodificador de texto capaz de codificar e descodificar palavras de acordo com as regras a seguir:
+
 `` A letra "e" é convertida para "enter"`` 
 ``A letra "i" é convertida para "imes"``
 ``A letra "a" é convertida para "ai"``
