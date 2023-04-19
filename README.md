@@ -1,4 +1,4 @@
-# 👩🏽‍💻 Challenge ONE Sprint 01 - Decodificador de Texto
+# 👩🏽‍💻 Challenge ONE - Decodificador de Texto
 
 ## 📝 Descrição
 
